@@ -31,7 +31,7 @@ Restrições de implementação da mini plataforma
 
 	1. Importe para o servidor de banco de dados MYSQL o arquivo db_creathusflix.sql que se encontra dentro da pasta bancodados da aplicação.
 
-	2. Importe para a raiz do servidor web (DocumentRoot) o diretório creathusflix.
+	2. Importe para a raiz do servidor web (DocumentRoot) os arquivos do diretório creathusflix.
 
 	3. Modifique o usuário e a senha de acesso ao banco de dados db_creathusflix dentro do arquivo conexao.php que se encontra na pasta bancodados.
 
