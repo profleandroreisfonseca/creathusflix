@@ -118,6 +118,21 @@ header {
 	height: 3rem;    
 	cursor:pointer;
 	background: #914172;
+	border: .01rem solid #FFF;
+}
+
+#pesquisa_filme{
+
+
+	margin-left: 5rem;
+	padding: .7rem;
+	border: .01rem solid #FFF;
+
+}
+
+#pesquisa_filme::placeholder {
+
+	color: #FFF;
 }
 
 

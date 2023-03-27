@@ -75,7 +75,7 @@
 
             <h1>Filmes</h1>
 
-            <select id="codigo_categoria" name="codigo_categoria" onChange="func_seleciona_filme_por_scategoria()">
+            <select id="codigo_categoria" name="codigo_categoria" onChange="func_seleciona_filme_por_categoria()">
                 
                 <option disabled="disabled" selected="selected" style="color: #FFF;">Gênero</option>
                     <?php
@@ -86,6 +86,8 @@
                         }
                     ?>
             </select>
+
+            <input type="text" id="pesquisa_filme" name="pesquisa_filme" placeholder="Pesquise pelo nome do filme" onkeypress="func_seleciona_filme_por_nome()" onkeydown="func_seleciona_filme_por_nome()">
 
         </div>
 

@@ -104,7 +104,7 @@
 
                         <div><label>Categoria</label></div>
 
-                            <select id="codigo_categoria" name="codigo_categoria" onChange="func_seleciona_filme_por_scategoria()">
+                            <select id="codigo_categoria" name="codigo_categoria" onChange="func_seleciona_filme_por_categoria()">
                                 
                                 <option disabled="disabled" selected="selected" style="color: #FFF;">Gênero</option>
                                     <?php
