@@ -8,7 +8,7 @@
         unset ($_SESSION['senha']);
 
         echo "<script> alert ('ERRO: É NECESSÁRIO FAZER LOGIN');</script>";
-        echo "<script> window.location.href='https://creathusflix.herokuapp.com';</script>";
+        echo "<script> window.location.href='https://creathusflix.herokuapp.com.com/';</script>";
     } 
 
 
@@ -34,7 +34,10 @@
 
 ?>
 
-<div><h1>Filmes cadastrados</h1></div>
+
+
+
+            <div><h1>Filmes cadastrados</h1></div>
 
                 <table>
                     
@@ -45,7 +48,9 @@
                         <td colspan="2">AÇÃO</td>
 
                     </tr>
-			
+
+
+
                 <?php do{ ?>
                     
                     <tr>

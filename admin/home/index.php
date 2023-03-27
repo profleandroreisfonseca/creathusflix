@@ -8,7 +8,7 @@
         unset ($_SESSION['senha']);
 
         echo "<script> alert ('ERRO: É NECESSÁRIO FAZER LOGIN');</script>";
-        echo "<script> window.location.href='https://creathusflix.herokuapp.com/admin/';</script>";
+        echo "<script> window.location.href='https://creathusflix.herokuapp.com.com/admin/';</script>";
     } 
 
 
@@ -155,6 +155,13 @@
                 </table>
 
     </div>
+
+    <footer>
+    
+      <p>&copy; 2023 CREATHUSFLIX. Todos os direitos reservados.</p>
+      <p>Desenvolvido por Leandro Reis Fonseca. (92)99145.8562</p>
+
+    </footer> 
 
 </body>
 

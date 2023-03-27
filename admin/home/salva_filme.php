@@ -8,7 +8,7 @@
         unset ($_SESSION['senha']);
 
         echo "<script> alert ('ERRO: É NECESSÁRIO FAZER LOGIN');</script>";
-        echo "<script> window.location.href='https://creathusflix.herokuapp.com/admin';</script>";
+        echo "<script> window.location.href='https://creathusflix.herokuapp.com.com/';</script>";
     } 
 
 

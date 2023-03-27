@@ -451,10 +451,8 @@ input[type="submit"]{
 	height: 10rem;
 
 	overflow-wrap: break-word;  
-    word-wrap: break-word; 
-    word-break: break-word;
-
-
+  word-wrap: break-word; 
+  word-break: break-word;
 }
 
 .agrupamento_formulario_cadastro_filme .btn_cadastrar_filme{
@@ -572,6 +570,19 @@ td{
 	cursor:pointer;
 	margin-top: 0.2rem;
 	margin-bottom: 0.2rem;
+}
+
+
+footer {
+        
+  padding: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+	text-align: center;        
+  bottom: 0;
+  background-image: linear-gradient(5deg, #3c274c, #520940, #3c274c);
+	background-attachment: fixed;
+
 }
 
 

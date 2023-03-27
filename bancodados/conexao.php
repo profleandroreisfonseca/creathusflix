@@ -1,4 +1,6 @@
 <?php
+
+	
 	$servidor = "us-cdbr-east-06.cleardb.net";
 	$usuario = "b5faa2b23df698";
 	$senha = "026802e6";
