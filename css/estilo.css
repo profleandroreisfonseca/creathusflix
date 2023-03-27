@@ -1,0 +1,560 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+
+
+
+html{
+
+	font-size: 62.5%;
+
+}
+
+
+body{
+
+	background-image: linear-gradient(0deg, #520940, #520940, #3c274c);
+	background-attachment: fixed;
+	
+}
+
+
+header {   
+
+    position: sticky;
+    top: 0;
+}
+
+
+
+/* MENU */
+
+
+.barra_topo{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: left;	
+	align-items: center;
+	padding: 1rem;
+	background: #3c274c;
+
+}
+
+
+.barra_topo > img{
+
+	width: 15rem;
+}	
+
+.menu_home{
+
+	list-style:none;
+	float:left;
+	width: 100rem;
+	padding: 1rem;
+
+}
+
+.menu_home li{
+
+	position: relative;
+	float:left;
+	font-size: 1.2rem;
+	width: 10%;
+	text-align: center;
+
+
+}
+
+.menu_home li a{
+
+	color: #e2e2e2; 
+	text-decoration:none;	
+	display:block;
+
+}
+
+.menu_home li a:hover{
+
+	color: #FFF;
+	font-weight: 750;
+
+}
+
+/* FIM CSS MENU DA HOME INICIAL*/
+
+
+
+.fitra_por_categoria{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: left;	
+	align-items: center;
+	padding: 1rem;
+	background-image: linear-gradient(0deg, #520940, #520940, #3c274c);
+	background-attachment: fixed;
+}
+
+
+.fitra_por_categoria > h1{
+
+	font-size: 2rem;
+	margin-top: 2.2rem;
+	margin-left: 6rem;
+	margin-right: 1rem;
+}
+
+
+.fitra_por_categoria > select{
+
+	font-size: 1.5rem;
+	width: 22rem; 
+	height: 3rem;    
+	cursor:pointer;
+	background: #914172;
+}
+
+
+.capitulo > h1{
+
+	font-size: 2rem;
+	color: #e2e2e2;
+	margin-top: 4rem;
+	margin-left: 7rem;
+	margin-right: 1rem;
+}
+
+.lista_filme{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+
+.lista_filme > div {
+
+  	margin-top: 2rem;
+  	margin-left: 1rem;
+  	margin-right: 1rem;
+  	margin-bottom: 6rem;
+  
+}
+
+.lista_filme > div > p{
+	
+	font-size: 1.4rem;	
+	text-align:left;
+	margin-top: 2rem; 
+	max-width: 15rem;
+	cursor: pointer;
+	
+}
+
+.capa_filme{
+
+	width: 15rem;
+	height: 25rem;
+	border-radius: .5rem;
+	box-shadow: 0px 1px 1px 2px #a10c4a;	
+}
+
+.capa_filme:hover{
+	
+	width: 15rem;
+	height: 25rem;
+	border-radius: .5rem;
+	box-shadow: 0px 1px 1px 8px #FFF;	
+	cursor:pointer;
+}
+
+
+.estrutura_sinopse{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 50rem;
+	margin: 0 auto;
+}
+
+.estrutura_sinopse > div {
+
+  	margin-top: 1rem;
+  	margin-left: 1rem;
+  	margin-right: 1rem;
+  	margin-bottom: 6rem;
+  
+}
+
+.estrutura_sinopse > div > p{
+	
+	font-size: 3rem;
+	font-weight: 800;	
+	text-align:left;
+	margin-top: 2rem; 
+	margin-bottom: 2rem; 
+	color: #FFF;
+}
+
+.estrutura_sinopse > div > label{
+	
+	font-size: 1.4rem;		
+	text-align:left;
+	margin-top: 2rem; 
+	line-height: 2.2rem;
+	color: #FFF;
+	
+}
+
+.estrutura_sinopse > div > input[type=button]{
+	
+	font-size: 1.2rem;
+	font-weight: 800;		
+	width: 8rem;
+	padding: .6rem;
+	text-align:center;
+	margin-top: 1rem;
+	color: #000;
+	cursor: pointer;
+	border-radius: .5rem;
+	border: 0;
+	
+}
+
+
+.sinopse_filme{
+
+	width: 70rem;
+	height: 35rem;
+	border-radius: .5rem;
+	box-shadow: 0px 1px 1px 2px #a10c4a;	
+}
+
+
+/* CSS DA TELA ADMINISTRATIVA */
+
+
+
+.form_login{
+
+	width: 430px;
+	margin: 7rem auto;
+	
+}
+
+.form_login > div > h1{
+
+	
+
+	text-align: center;
+	
+}
+
+h1{
+
+	font-size: 3rem;
+	margin-bottom: 2.5rem;
+	color: #FFF;
+}
+
+.agrupamento_login{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #FFF;
+	padding: 5rem;
+	border-radius: 8px;
+
+}
+
+label, input[type="text"], input[type="password"],input[type="submit"]{
+
+	font-size: 1.5rem;
+
+
+}
+
+input[type="text"], input[type="password"], textarea{
+
+	width: 30rem;
+	padding: 1.0rem;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	border: 1px solid #CCC;
+	background: #914172;
+}
+
+input[type="submit"]{
+
+	color: #000;
+	font-weight: 800;
+	width: 32.3rem;
+	padding: .9rem;
+	margin-top: 1.2rem;
+	margin-bottom: 1rem;
+	background: #9b9794;
+	border: 0;
+	cursor: pointer;
+	border-radius: 20px;
+
+}
+
+
+
+/* MENU DO ADMIN */
+
+
+.menu_admin{
+
+	list-style:none;
+	float:left;
+	width: 100rem;
+	padding: 1rem;
+}
+
+.menu_admin li{
+
+	position: relative;
+	float:left;
+	font-size: 1.2rem;
+	width: 15%;
+	text-align: center;
+
+
+}
+
+.menu_admin li a{
+
+	color: #e2e2e2; 
+	text-decoration:none;	
+	display:block;
+
+}
+
+.menu_admin li a:hover{
+
+	color: #FFF;
+	font-weight: 750;
+
+}
+
+
+.menu_admin li  ul{
+	
+	position:absolute;
+	top:35px;
+	left:0;
+	background: #00008B;
+	display:none;
+	
+}
+
+.menu_admin li:hover ul, .menu_admin li.over ul{
+	
+	display:block;
+
+}
+
+.menu_admin li ul li{
+	
+	border-bottom:1px solid #FFF;
+	display:block;
+	width: 200px;
+	text-align: left;
+}
+
+
+/* FIM DO MENU DO ADMIN */
+
+
+/* FORMULÁRIO DE CADASTRO DE FILME */
+
+
+
+.formulario_cadastro_filme{
+
+	width: 90rem;
+	margin: 7rem auto;
+	
+}
+
+.formulario_cadastro_filme > div > h1{
+
+	font-size: 2rem;
+	
+}
+
+
+
+.agrupamento_formulario_cadastro_filme{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #FFF;
+	padding: 5rem;
+	border-radius: 8px;
+
+}
+
+.agrupamento_formulario_cadastro_filme > div > select{
+
+
+	width: 52rem;
+	padding: .85rem;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	border: 1px solid #CCC;	
+	font-size: 1.5rem;
+	cursor:pointer;
+	background: #914172;
+
+}
+
+
+.agrupamento_formulario_cadastro_filme .titulo_filme{
+
+	width: 50rem;
+
+}
+
+.agrupamento_formulario_cadastro_filme .descricao_filme{
+
+	width: 50rem;
+	height: 10rem;
+
+	overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+
+
+}
+
+.agrupamento_formulario_cadastro_filme .btn_cadastrar_filme{
+
+	width: 52rem;
+
+}
+
+
+
+
+
+/* CSS UPPLOAD CAPA DO FILME */
+
+
+.form-element {
+  
+	width: 15rem;
+	height: 25rem;
+	box-shadow: 0px 1px 1px 2px #FFF;
+}
+
+
+.form-element input {
+
+	display:none;
+
+}
+
+.form-element img {
+
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+
+
+.form-element img:hover {
+
+	cursor:pointer;
+
+	filter: opacity(0.5) drop-shadow(0 0 0 #399);
+
+}
+
+.form-element div {
+
+	position:relative;
+	height: 2rem;
+	margin-top: -3rem;
+	text-align:center; 
+	font-size: 0px;
+
+	cursor:pointer;
+}
+
+.form-element div span {
+
+	font-size: 1.4rem;
+
+}
+
+
+/* FIM CSS UPLOAD CAPA DO FILME */
+
+
+
+/* ESTILO DA TABELA DE FILMES CADASTRADOS PELO ADMIN */
+
+.estila_tabela{
+
+	width: 120rem;
+	margin: 4rem auto;
+
+}
+
+.estila_tabela > div > h1{
+
+	font-size: 2rem;
+
+}
+
+.estila_tabela .capa_filme{
+
+	width: 8rem;
+	height: 10rem;
+
+} 
+
+table{
+
+	width: 100%;
+
+}
+
+.tabela_cabecalho{
+
+	font-weight: 600;
+	height: 5rem;
+}
+
+td{
+
+	font-size: 1.4rem;
+	border-bottom: 1px solid #3c274c;
+	text-align: center;
+	padding: .8rem;	
+}
+
+
+.botao_acao{
+	
+	width: 3.5rem;
+	cursor:pointer;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
