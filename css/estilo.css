@@ -573,3 +573,43 @@ td{
 	margin-top: 0.2rem;
 	margin-bottom: 0.2rem;
 }
+
+
+ /* Estilos responsivos */
+      
+      @media (max-width: 700px) {
+
+      	form {
+
+          max-width: 80%;
+
+        }
+
+        table {
+
+          max-width: 40%;
+
+        }
+        
+
+        input[type="text"], input[type="password"],input[type="submit"], textarea {
+
+          max-width: 50%;
+
+        }
+
+        select {
+
+          max-width: 55%;
+
+        }
+
+
+        ul {
+
+          max-width: 60%;
+
+        }
+
+
+      }
