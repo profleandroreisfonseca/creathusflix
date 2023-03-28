@@ -152,7 +152,8 @@
                           </label>
                         </div>
 
-                    </div> 
+                    </div>
+              </div>       
         </form>
 
         <script src="../../js/upload_capa_filme.js"></script>
