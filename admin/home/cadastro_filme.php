@@ -133,9 +133,9 @@
                             </div>
                           </label>
                         </div>
-
                     </div> 
-        </form>
+            </div> 
+       </form>
 
         <script src="../../js/upload_capa_filme.js"></script>
 
